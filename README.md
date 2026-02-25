@@ -1,18 +1,18 @@
-# Customer Shopping Behaviour – Power BI Report (Kaggle)
+# Shopping Analytics – Power BI Report (Kaggle)
 
-A Power BI report built on a public Kaggle dataset: **Customer Shopping Behaviour Analysis**.  
-This project focuses on a clean, reproducible Power BI build: ETL in Power Query, a simple model, well-defined measures, and a report layout with drillthrough for exploration.
+A Power BI report built on a public Kaggle dataset (**Customer Shopping Behaviour Analysis**) to explore customer shopping patterns using a clean layout, consistent slicers, and drillthrough detail analysis.
+
+> Note: Screenshots in this repository may show Power BI Desktop UI labels in the author’s locale (e.g., Czech “Select all”), while report page titles and visual titles are maintained in English.
 
 ---
 
 ## Table of Contents
-- [Project Goals](#project-goals)
-- [Demo Preview](#demo-preview)
+- [Project Overview](#project-overview)
 - [Data Source (Kaggle)](#data-source-kaggle)
-- [Dataset](#dataset)
-- [Power BI Setup](#power-bi-setup)
-- [Model](#model)
+- [Dataset Notes](#dataset-notes)
+- [Report Highlights](#report-highlights)
 - [Measures (KPIs)](#measures-kpis)
+- [Data Preparation (Power Query)](#data-preparation-power-query)
 - [Report Pages](#report-pages)
 - [How to Run Locally](#how-to-run-locally)
 - [Publishing & Refresh](#publishing--refresh)
@@ -24,25 +24,14 @@ This project focuses on a clean, reproducible Power BI build: ETL in Power Query
 
 ---
 
-## Project Goals
-- Build a **clean Power BI report from scratch** with a consistent layout and interactions.
-- Provide a **reproducible setup** for anyone to refresh and explore locally.
-- Showcase:
-  - **Overview KPIs**
-  - **Customer Segmentation**
-  - **Product Preferences**
-  - **Detail Drillthrough**
-
----
-
-## Demo Preview
-- Wireframe: `assets/overview-wireframe.png`
-
-> Tip: Add screenshots for each page in `assets/` and link them here for quick browsing:
-> - `assets/overview.png`
-> - `assets/segmentation.png`
-> - `assets/products.png`
-> - `assets/detail.png`
+## Project Overview
+This project demonstrates a complete Power BI report workflow:
+- Import and shape data in **Power Query**
+- Build reusable **DAX measures**
+- Design a consistent report UX:
+  - KPI row across pages
+  - Slicer panel synced across pages
+  - Drillthrough to a row-level detail page
 
 ---
 
